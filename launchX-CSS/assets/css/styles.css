@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(222, 222, 222);
+}
+
+.card-header{
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.row{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+
+.navbar-nav{
+    align-items: center;
+    
+}
+
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav-link{
+    width: 250px;
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.box-blue{
+    background-color: #2774DE;
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: white;
+    margin-right: 50px;
+}
+
+/* Inicio */
+
+.top-title{
+    margin-top: 220px;
+}
+
+h1{
+    color: #1F3E72;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+h2{
+    color: #1F3E72;
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+h3{
+    color: #6D7B93;
+}
+
+.inicio{
+    display: flex;
+}
+
+.c-best{
+    display: flex;
+}
+
+.fondo-img{
+    background-color: rgb(83, 136, 235);
+    object-fit: fill;
+}
+
+.fondo-img img{
+    height: 100%;
+}
+
+.flotante{
+    position: relative;
+    z-index: 10;
+    margin-top: 220px;
+    margin-bottom: 520px;
+    
+}
+
+.prueba{
+    position: absolute;
+    
+}
+
+.recuadro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 70vw;
+    height: 180px;
+    box-shadow: -5px 5px 5px rgb(233, 233, 233);
+}
+
+.brn-submit{
+    background-color: #2576DF;
+    color: white;
+    height: 80px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 80px;
+    
+}
+
+/* Marcas */
+
+.marcas{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.marcas img{
+    margin: 150px 0px;
+}
+
+.card-v{
+    height: 300px;
+}
+
+.backgroundB{
+    height: 100%;
+    background: #2576DF;
+    background-image: linear-gradient(to top, #2576DF, #2576DF 50%, #2576DF 75%, rgb(255, 255, 255) 75%);;
+    background-repeat: no-repeat;
+/*     background-image: url("https://cuidadosencasa.com/noticias/wp-content/uploads/2021/07/Auxiliar-o-Enfermera-para-Cuidados-a-Domicilio.png");
+    background-size: contain;
+    background-position: center;
+     */
+}
+
+
+/* Footer */
+
+.f-title-logo{
+    color: #2A4AC8;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.f-title{
+    color: #1F3E72;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.f-menu{
+    color: #75839A;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
